@@ -1,0 +1,18 @@
+echo "----------BEGINING----------"
+echo " Wow !!! Github+Jenkins!!!"
+echo "START"
+cat <<EOF > index.html
+<html>
+<head>
+<titile>TEST PAGE</title>
+</head>
+<body bgcolor=white>
+	<p style = "color: red; text-align: center; font-size:70px;">Hello World!</p>
+</body>
+</html>
+EOF
+echo "Ura! Finish"
+ls -la
+echo "-----DEPLOY-----"
+
+echo $BUILD_NUMBER
